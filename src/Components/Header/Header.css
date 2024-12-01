@@ -1,0 +1,156 @@
+.header {
+    background-color: #1b161e;
+    height: 100px;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 0 10px;
+}
+
+.announcements-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowLeft, .arrowRight {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    object-fit: cover;
+}
+
+.announcements-texts {
+    color: white;
+    font-size: 10px;
+    line-height: 0;
+    text-align: center;
+}
+
+.hide-announcement {
+    display: none;
+}
+
+.logo-icons-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-search-container {
+    display: flex;
+    gap: 7px;
+    flex: 1;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.starfoxLogo {
+    width: 53px;
+}
+
+.heading {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin: auto;
+    transform: translateY(-8px);
+}
+
+.wishlist-cart-user-container {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 7px;
+}
+
+.menuIcon, .searchIcon, .wishlistIcon, .cartIcon, .userIcon {
+    height: 25px;
+    width: 25px;
+}
+
+.searchIconRight {
+    height: 25px;
+    width: 25px;
+    display: none;
+}
+
+@media only screen and (min-width: 364px) {
+
+    .header {
+        height: 120px;
+    }
+
+    .header-container {
+        margin: 0 20px;
+    }
+
+    .menuIcon, .searchIcon, .emptySpan, .wishlistIcon, .cartIcon, .userIcon {
+        height: 35px;
+        width: 35px;
+    }
+
+    .starfoxLogo {
+        width: 60px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+  }
+
+  @media only screen and (min-width: 685px) {
+
+    .searchIcon {
+        visibility: hidden;
+    }
+
+    .searchIconRight {
+        height: 40px;
+        width: 40px;
+        display: block;
+    }
+
+    .header {
+        height: 140px;
+    }
+
+    .header-container {
+        margin: 0 20px;
+    }
+
+    .announcements-texts {
+        font-size: 14px;
+    }
+
+    .menuIcon, .searchIcon, .emptySpan, .wishlistIcon, .cartIcon, .userIcon {
+        height: 40px;
+        width: 40px;
+    }
+
+    .starfoxLogo {
+        width: 65px;
+    }
+
+    .heading {
+        font-size: 50px;
+        transform: translateY(-13px);
+    }
+  }
+
+  @media only screen and (min-width: 1025px) {
+
+    
+    
+  }
